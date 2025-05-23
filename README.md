@@ -1,0 +1,2 @@
+# CrackIt-Quiz-and-Joke-Website
+An advanced interactive quiz website demonstrating strong frontend development skills. Built using HTML for semantic structure, CSS for responsive layouts and animated bubble background, and JavaScript for dynamic quiz logic, real-time user feedback, score tracking, and integration with a public joke API to fetch and display live data. Designed for an engaging, multi-device user experience.
