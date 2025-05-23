@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main class="main">
+    <header class="header">
+      <a href="#" class="logo">CrackIt.</a>
+    </header>
+<div class="container">
+    <div class="container-animation">
+      <div class="bubbles">
+        <span style="--i:11;"></span><span style="--i:12;"></span><span style="--i:24;"></span>
+        <span style="--i:10;"></span><span style="--i:14;"></span><span style="--i:23;"></span>
+        <span style="--i:18;"></span><span style="--i:16;"></span><span style="--i:19;"></span>
+        <span style="--i:20;"></span><span style="--i:22;"></span><span style="--i:25;"></span>
+        <span style="--i:18;"></span><span style="--i:21;"></span><span style="--i:15;"></span>
+        <span style="--i:13;"></span><span style="--i:26;"></span><span style="--i:17;"></span>
+        <span style="--i:13;"></span><span style="--i:28;"></span>
+        <span style="--i:11;"></span><span style="--i:12;"></span><span style="--i:24;"></span>
+        <span style="--i:10;"></span><span style="--i:14;"></span><span style="--i:23;"></span>
+        <span style="--i:18;"></span><span style="--i:16;"></span><span style="--i:19;"></span>
+        <span style="--i:20;"></span><span style="--i:22;"></span><span style="--i:25;"></span>
+        <span style="--i:18;"></span><span style="--i:21;"></span><span style="--i:15;"></span>
+        <span style="--i:13;"></span><span style="--i:26;"></span><span style="--i:17;"></span>
+        <span style="--i:13;"></span><span style="--i:28;"></span>
+      </div>
+</div>
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <div class="quiz-header">
+            <span class="header-score">Score: 0/5</span>
+          </div>
+          <h2 class="question-text">Question appears here</h2>
+          <div class="option-list"></div>
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 Questions</span>
+            <button class="next-btn">Next</button>
+          </div>
+        </div>
+
+        <div class="result-box">
+          <h2>Quiz Result</h2>
+          <div class="percentage-container">
+            <div class="circular-progress">
+              <span class="progress-value">0%</span>
+            </div>
+            <span class="score-text">Your Score 0 out of 5</span>
+          </div>
+          <div class="buttons">
+            <button class="tryAgain-btn">Try Again</button>
+            <button class="goHome-btn">Go To Home</button>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="home active">
+        <div class="home-content">
+          <h1>Welcome to CrackIt!</h1>
+          <p>Ready to crack your brain or crack a laugh? You've come to the right place!
+
+          <p> &#x2714; Pop a Quiz – Test your knowledge with our fun general knowledge quiz!<br>
+          &#x2714; Haha Hub – Chill out and read some jokes that’ll tickle your brain cells!</p>
+          Laugh it. Learn it. CrackIt.</p>
+          <div class="btn-group-home">
+            <button class="start-btn">Pop a Quiz!</button>
+            <button class="jokes">Haha Hub</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1. Each question has four options.</span>
+    <span class="info">2. Select the correct option to score.</span>
+    <span class="info">3. You cannot go back once answered.</span>
+    <span class="info">4. Final score will be shown at the end.</span>
+    <span class="info">5. You can retake the quiz.</span>
+    <div class="btn-group">
+      <button class="info-btn exit-btn">Exit Quiz</button>
+      <a href="#" class="info-btn continue-btn">Continue</a>
+    </div>
+  </div>
+
+  <div class="joke-modal">
+  <div class="joke-content">
+    <h2>Need a Laugh</h2>
+    <p class="joke-text">Fetching a laugh...</p>
+    <button class="close-joke">Close</button>
+  </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
